@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <AssemblyName>$(MSBuildProjectName) v0.4 【合成表 指令fd或查】</AssemblyName>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="TShock" Version="5.*" />
+    </ItemGroup>
+</Project>
